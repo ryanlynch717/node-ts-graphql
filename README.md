@@ -7,14 +7,12 @@ Mike North's Full Stack TypeScript course
 
 ## Setup
 
-First, if you want to ensure you're using the correct Node.js and package manager versions, [install Volta](http://volta.sh)
+First, if you want to ensure you're using the correct Node.js and package manager versions, use nvm
 
 ```sh
-# install Volta
-curl https://get.volta.sh | bash
-
 # install Node
-volta install node
+nvm install node 17.0.0
+nvm use 17.0.0
 ```
 
 Then, check out a local copy of this repository
